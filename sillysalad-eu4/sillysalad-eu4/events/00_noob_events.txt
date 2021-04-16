@@ -14,6 +14,16 @@ country_event = {
 			name = "greater_noob_protection"
 			duration = -1
 		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { ROOT }
+				}
+				country_event = {
+					id = noob_protection_event.2
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -27,6 +37,16 @@ country_event = {
 	
 	option = {
 		name = "noob_protection_event.1_3"
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { ROOT }
+				}
+				country_event = {
+					id = noob_protection_event.2
+				}
+			}
+		}
 	}
 }
 country_event = {

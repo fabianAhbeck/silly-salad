@@ -1,5 +1,5 @@
 noob_protection_trait = {
-  index = 1024
+  index = 308
 
   ruler_designer_cost = 0
 

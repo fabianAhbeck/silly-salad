@@ -10,12 +10,8 @@ noob_protection_event.1 = {
 
   option = {
     name = noob_protection_event.1.a
-    immediate = {
-      effect = {
-        add_character_flag = noob_protection_flag
-        add_trait = noob_protection_trait
-      }
-    }
+    add_character_flag = noob_protection_flag
+    add_trait = noob_protection_trait
   }
 
   option = {

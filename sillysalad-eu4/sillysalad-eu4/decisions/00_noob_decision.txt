@@ -12,5 +12,15 @@ country_decisions = {
 				id = noob_protection_event.1
 			}
 		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { ROOT }
+				}
+				country_event = {
+					id = noob_protection_event.2
+				}
+			}
+		}
 	}
 }

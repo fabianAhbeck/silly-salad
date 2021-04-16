@@ -29,3 +29,16 @@ country_event = {
 		name = "noob_protection_event.1_3"
 	}
 }
+country_event = {
+	id = noob_protection_event.2
+	title = "noob_protection_event.2_d"
+	desc = "noob_protection_event.2_t"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "noob_protection_event.2_1"
+		ai_chance = { factor = 100 }
+	}
+}

@@ -9,3 +9,6 @@
  noob_protection_event.1_3:3 "My middle name is Florryworry. Cool it, nobles."
  greater_noob_protection:3 "Greater Newbie Protection Clause"
  lesser_noob_protection:3 "Lesser Newbie Protection Clause"
+ noob_protection_event.2_t:3 "[From.GetName] enacts Newbie Protection!"
+ noob_protection_event.2_d:3 "Following the realisation that they have no idea what they're doing, [From.GetName] has enacted the Newbie Protection Clause, giving them certain boons."
+ noob_protection_event.2_1:3 "Well, that's worrying. Florryworrying, almost."

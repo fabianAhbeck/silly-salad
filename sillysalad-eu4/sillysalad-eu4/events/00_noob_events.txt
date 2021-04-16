@@ -15,10 +15,7 @@ country_event = {
 			duration = -1
 		}
 		hidden_effect = {
-			every_country = {
-				limit = {
-					NOT = { ROOT }
-				}
+			all_country = {
 				country_event = {
 					id = noob_protection_event.2
 				}
@@ -38,10 +35,7 @@ country_event = {
 	option = {
 		name = "noob_protection_event.1_3"
 		hidden_effect = {
-			every_country = {
-				limit = {
-					NOT = { ROOT }
-				}
+			all_country = {
 				country_event = {
 					id = noob_protection_event.2
 				}

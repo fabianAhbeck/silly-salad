@@ -1,0 +1,36 @@
+country_decisions = {
+	wheel_result_decision_1 = { #add a decision corresponding to a result on the Wheel of Pain
+		major = yes
+		potential = {
+			tag = FRA #or whatever nation we feel like should have access
+		}
+		allow = {
+			NOT = { ai = yes } #let's not let the AI take this decision
+		}
+		effect = { #this is hopefully all countries
+			every_country = {
+				country_event = {
+					id = wheel_result_events.1
+				}
+			}
+		}
+	}
+	wheel_result_decision_2 = {
+		major = yes
+		potential = {
+			tag = FRA
+		}
+		allow = {
+			NOT = { ai = yes }
+		}
+		effect = {
+			random_region = {
+				every_country = {
+					country_event = {
+						id = wheel_result_events.2
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,20 +1,21 @@
 noob_protection_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
-	
+
 	desc = noob_protection_decision_desc
 	selection_tooltip = noob_protection_decision_tooltip
 
 	major = yes
-	
+
 	is_shown = {
 		NOT = { has_character_flag = noob_protection_flag }
 	}
-	
+
 	effect = {
-		add_character_flag = noob_protection_flag
-		add_character_modifier = noob_protection_modifier
+		trigger_event = {
+			id = noob_protection_event.1
+		}
 	}
-	
+
 	ai_check_interval = 0
-	
+
 }

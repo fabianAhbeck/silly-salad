@@ -1,0 +1,22 @@
+noob_protection_event.1 = {
+  desc = noob_protection_event.1.desc
+
+  type = character_event
+
+  left_portrait = {
+    character = ROOT
+    animation = happiness
+  }
+
+  option = {
+    name = noob_protection_event.1.a
+    effect = {
+      add_character_flag = noob_protection_flag
+      add_character_modifier = noob_protection_modifier
+    }
+  }
+
+  option = {
+    name = noob_protection_event.1.b
+  }
+}

@@ -1,7 +1,0 @@
-wheel_result_modifier_1 = {
-	development_cost = 0.2
-}
-
-wheel_result_modifier_2 = {
-	development_cost = 0.2
-}

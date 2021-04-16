@@ -1,0 +1,11 @@
+noob_protection_trait = {
+  index = 1024
+
+  ruler_designer_cost = 0
+
+  fertility = 0.2
+  stress_loss_mult = 0.25
+  health = 0.2
+  hostile_scheme_resistance_mult = 0.25
+  tax_mult = 0.15
+}

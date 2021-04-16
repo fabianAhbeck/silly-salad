@@ -12,7 +12,7 @@ noob_protection_event.1 = {
     name = noob_protection_event.1.a
     effect = {
       add_character_flag = noob_protection_flag
-      add_character_modifier = noob_protection_modifier
+      add_trait = noob_protection_trait
     }
   }
 
